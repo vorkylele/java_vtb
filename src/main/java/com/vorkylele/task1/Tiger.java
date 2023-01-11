@@ -1,4 +1,4 @@
-package com.vorkylele;
+package com.vorkylele.task1;
 
 public class Tiger extends Animal {
     public Tiger(String name, int lengthRun, int lengthSwim) {
