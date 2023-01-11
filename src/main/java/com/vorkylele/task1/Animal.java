@@ -1,6 +1,6 @@
 package com.vorkylele.task1;
 
-public class Animal {
+public abstract class Animal {
     String name;
     final int LENGTH_RUN;
     final int LENGTH_SWIM;
