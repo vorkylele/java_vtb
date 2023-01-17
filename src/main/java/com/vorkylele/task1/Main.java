@@ -16,9 +16,9 @@ public class Main {
             animal.swim(11);
         }
 
-        System.out.println(HomeCat.getCountCat());
-        System.out.println(Dog.getCountDog());
-        System.out.println(Tiger.getCountTiger());
-        System.out.println(Animal.countAnimal);
+        System.out.println(HomeCat.getCount());
+        System.out.println(Dog.getCount());
+        System.out.println(Tiger.getCount());
+        System.out.println(Animal.getCount());
     }
 }

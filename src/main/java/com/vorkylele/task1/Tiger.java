@@ -1,14 +1,14 @@
 package com.vorkylele.task1;
 
 public class Tiger extends Animal {
-    static int countTiger;
+    static int count;
 
     public Tiger(String name, int lengthRun, int lengthSwim) {
         super(name, lengthRun, lengthSwim);
-        countTiger += 1;
+        count ++;
     }
 
-    public static int getCountTiger() {
-        return countTiger;
+    public static int getCount() {
+        return count;
     }
 }

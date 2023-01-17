@@ -4,13 +4,18 @@ public abstract class Animal {
     String name;
     final int LENGTH_RUN;
     final int LENGTH_SWIM;
-    static int countAnimal;
+
+    public static int getCount() {
+        return count;
+    }
+
+    private static int count;
 
     public Animal(String name, int lengthRun, int lengthSwim) {
         this.name = name;
         LENGTH_RUN = lengthRun;
         LENGTH_SWIM = lengthSwim;
-        countAnimal += 1;
+        count ++;
     }
 
     public void run(int lengthRun) {
@@ -36,4 +41,6 @@ public abstract class Animal {
             System.out.println(name + " проплыл " + lengthSwim + " м");
         }
     }
+
+
 }

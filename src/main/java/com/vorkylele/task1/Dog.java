@@ -1,15 +1,15 @@
 package com.vorkylele.task1;
 
 public class Dog extends Animal {
-    private static int countDog;
+    private static int count;
 
     public Dog(String name, int lengthRun, int lengthSwim) {
         super(name, lengthRun, lengthSwim);
-        countDog += 1;
+        count ++;
     }
 
 
-    public static int getCountDog() {
-        return countDog;
+    public static int getCount() {
+        return count;
     }
 }
