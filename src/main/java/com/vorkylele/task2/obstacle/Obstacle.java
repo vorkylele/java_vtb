@@ -1,7 +1,7 @@
 package com.vorkylele.task2.obstacle;
 
-import com.vorkylele.task2.Skiils;
+import com.vorkylele.task2.skills.Skills;
 
 public interface Obstacle {
-    boolean skill(Skiils skill);
+    boolean skill(Skills skill);
 }

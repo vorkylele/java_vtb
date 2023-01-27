@@ -1,6 +1,6 @@
 package com.vorkylele.task2.obstacle;
 
-import com.vorkylele.task2.Skiils;
+import com.vorkylele.task2.skills.Skills;
 
 public class Wall implements Obstacle{
     private int height;
@@ -8,12 +8,12 @@ public class Wall implements Obstacle{
         this.height = length;
     }
     @Override
-    public boolean skill(Skiils skill) {
+    public boolean skill(Skills skill) {
         if(skill.jump(height)){
             System.out.println(skill.getName() + " успешно перепрыгнул стену");
             return true;
         } else{
-            System.out.println(skill.getName() + " не переврыгнул стену");
+            System.out.println(skill.getName() + " не перепрыгнул стену");
             return false;
         }
     }

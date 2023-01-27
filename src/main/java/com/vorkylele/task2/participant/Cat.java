@@ -1,8 +1,8 @@
 package com.vorkylele.task2.participant;
 
-import com.vorkylele.task2.Skiils;
+import com.vorkylele.task2.skills.Skills;
 
-public class Cat implements Skiils {
+public class Cat implements Skills {
     private String name;
     private int maxLength;
     private int maxHeight;
@@ -20,10 +20,9 @@ public class Cat implements Skiils {
         } else if(length > maxLength){
             System.out.println(name + " не может пробежать дистанцию " + length);
             return false;
-        } else {
+        }
             System.out.println(name + " может успешно пробежать дистацию " + length);
             return true;
-        }
     }
 
     @Override
@@ -34,10 +33,9 @@ public class Cat implements Skiils {
         } else if(height > maxHeight){
             System.out.println(name + " не может прыгнуть в высоту " + height);
             return false;
-        } else {
+        }
             System.out.println(name + " может успешно перепрыгнуть высоту " + height);
             return true;
-        }
     }
 
     @Override
