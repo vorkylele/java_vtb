@@ -1,13 +1,11 @@
-package com.vorkylele.task1;
+package com.vorkylele.task1.animals;
 
-public class Dog extends Animal {
+public class Cat extends Animal {
     private static int count;
-
-    public Dog(String name, int lengthRun, int lengthSwim) {
+    public Cat(String name, int lengthRun, int lengthSwim) {
         super(name, lengthRun, lengthSwim);
         count ++;
     }
-
 
     public static int getCount() {
         return count;

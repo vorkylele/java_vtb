@@ -1,9 +1,9 @@
-package com.vorkylele.task1;
+package com.vorkylele.task1.animals;
 
 public abstract class Animal {
-    String name;
-    final int LENGTH_RUN;
-    final int LENGTH_SWIM;
+    private String name;
+    private final int LENGTH_RUN;
+    private final int LENGTH_SWIM;
 
     public static int getCount() {
         return count;
@@ -20,7 +20,7 @@ public abstract class Animal {
 
     public void run(int lengthRun) {
         if(lengthRun < 0) {
-            System.out.println(name + " не может пробежать меньше " + lengthRun + " м");
+            System.out.println(name + " не может пробежать некорректную длину: " + lengthRun + " м");
         } else if (LENGTH_RUN < lengthRun){
             System.out.println(name + " не может пробежать " + lengthRun + " м");
         } else if (lengthRun == 0){

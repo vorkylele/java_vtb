@@ -1,4 +1,6 @@
-package com.vorkylele.task1;
+package com.vorkylele.task1.animals;
+
+import com.vorkylele.task1.animals.Animal;
 
 public class Tiger extends Animal {
     static int count;

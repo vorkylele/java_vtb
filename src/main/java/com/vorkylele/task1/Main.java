@@ -1,5 +1,10 @@
 package com.vorkylele.task1;
 
+import com.vorkylele.task1.animals.Animal;
+import com.vorkylele.task1.animals.Dog;
+import com.vorkylele.task1.animals.HomeCat;
+import com.vorkylele.task1.animals.Tiger;
+
 public class Main {
     public static void main(String[] args) {
         Animal[] animals = {
