@@ -4,19 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3b4559-598e-4644-a41c-19143eab83eb" name="Changes" comment="second task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/skills/GetName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/skills/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/skills/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/Skiils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/skills/Skills.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/TreadMill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/TreadMill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Robot.java" afterDir="false" />
+    <list default="true" id="9d3b4559-598e-4644-a41c-19143eab83eb" name="Changes" comment="changed the name of variables">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/Skiils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/TreadMill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/obstacle/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task2/participant/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/HomeCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/animals/HomeCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vorkylele/task1/animals/Tiger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,7 @@
       <workItem from="1673460337395" duration="5179000" />
       <workItem from="1673469513849" duration="600000" />
       <workItem from="1673965078273" duration="3337000" />
-      <workItem from="1674666552142" duration="15225000" />
+      <workItem from="1674666552142" duration="14475000" />
     </task>
     <task id="LOCAL-00001" summary="first task">
       <created>1673463770466</created>
@@ -150,14 +156,7 @@
       <option name="project" value="LOCAL" />
       <updated>1673970045550</updated>
     </task>
-    <task id="LOCAL-00006" summary="second task">
-      <created>1674843996317</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674843996317</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +179,6 @@
     <MESSAGE value="refactor structure" />
     <MESSAGE value="added 5th item of the task 1" />
     <MESSAGE value="changed the name of variables" />
-    <MESSAGE value="second task" />
-    <option name="LAST_COMMIT_MESSAGE" value="second task" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the name of variables" />
   </component>
 </project>
